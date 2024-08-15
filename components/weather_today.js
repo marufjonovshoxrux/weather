@@ -1,9 +1,9 @@
 export function weather_today(item) {
 	
-  const flex = document.querySelector('div')
-  const span = document.querySelector('span')
-  const img = document.querySelector('img')
-  const span_clock = document.querySelector('span')
+  const flex = document.createElement('div')
+  const span = document.createElement('span')
+  const img = document.createElement('img')
+  const span_clock = document.createElement('span')
 
 
   flex.classList.add('flex')

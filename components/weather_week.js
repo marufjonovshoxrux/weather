@@ -1,11 +1,11 @@
 export function weather_week(item) {
   
 
-  const calendar_weather = document.querySelector('.calendar_weather')
-  const span = document.querySelector('span')
-  const img = document.querySelector('img')
-  const span_clock = document.querySelector('span')
-
+  const calendar_weather = document.createElement('.calendar_weather')
+  const span = document.createElement('span')
+  const img = document.createElement('img')
+  const span_clock = document.createElement('span')
+  
   calendar_weather.classList.add('.calendar_weather')
 
   span.innerHTML = 'sep,13'
