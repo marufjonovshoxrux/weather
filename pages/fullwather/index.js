@@ -4,11 +4,11 @@ import { reload } from '../../lib/utils.js'
 
 const time_weather = document.querySelector('.time_weather')
 
-reload(time_weather, weather_today)
+// reload(time_weather, weather_today)
 
 const calendars_weather = document.querySelector('.calendars_weather')
 
-reload(calendars_weather, weather_week)
+// reload(calendars_weather, weather_week)
 
 const updown = document.querySelector('#updown')
 
